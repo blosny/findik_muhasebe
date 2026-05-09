@@ -1,41 +1,41 @@
-Findik Muhasebe
+# Fındık Muhasebe
 
-Findik Muhasebe is a mobile application built with Flutter, designed to assist hazelnut traders in managing their daily operations. The app offers features such as tracking hazelnut prices, monitoring inventory levels, and managing customer accounts, providing a seamless experience for traders.
-Features
+**Fındık Muhasebe**, fındık tüccarlarının günlük operasyonlarını yönetmelerine yardımcı olmak amacıyla Flutter ile geliştirilmiş bir mobil uygulamadır. Uygulama; fındık fiyatlarını takip etme, envanter seviyelerini izleme ve müşteri hesaplarını yönetme gibi özellikler sunarak tüccarlar için uçtan uca bir deneyim sağlar.
 
-- Hazelnut Price Tracking: The app pulls hazelnut price data from the internet, which changes daily. Traders can stay up-to-date with current market prices.
-  
-- Inventory Management: The app allows traders to track the amount of hazelnuts left in their inventory, ensuring they can manage stock levels efficiently.
+## Özellikler
+- **Anlık Fiyat Takibi**: Uygulama, internet üzerinden (Web Scraping ile) günlük değişen fındık fiyat verilerini çeker. Böylece tüccarlar güncel piyasa fiyatlarından anında haberdar olur.
+- **Envanter Yönetimi**: Stoktaki fındık miktarını takip edebilir ve depo seviyelerini verimli bir şekilde yönetebilirsiniz.
+- **Müşteri Hesap Yönetimi**: Borç ve alacak takibi dahil olmak üzere müşteri işlemlerini destekleyerek iş ilişkilerini yönetmeyi kolaylaştırır.
+- **Hasat ve Gider Takibi**: Hasat miktarı, kalitesi ve gübre/işçilik gibi gider kalemlerini kayıt altında tutun.
+- **Gelecek Özellik (Planlanan)**: Mağaza tabelasında fındık fiyatlarının dijital olarak gösterilmesi özelliği bir sonraki güncelleme için planlanmaktadır.
 
-- Customer Account Management: The app supports tracking of customer transactions, including debts and credits, making it easier for traders to manage their business relationships.
+## Kullanılan Teknolojiler
+- **Flutter** & **Dart**
+- **MongoDB**
+- **Web Scraping** (Fiyat verilerini çekmek için)
 
-- (To be implemented): Displaying hazelnut prices on the store sign. This feature is planned for a future update.
+## Kurulum
+1. Depoyu klonlayın:
+   ```sh
+   git clone https://github.com/tahabugracck/findik_muhasebe.git
+   ```
+2. Bağımlılıkları yükleyin:
+   ```sh
+   flutter pub get
+   ```
+3. Uygulamayı çalıştırın:
+   ```sh
+   flutter run
+   ```
 
-Setup
+## Kullanım
+1. Uygulamayı açtığınızda ana ekranda güncel fındık fiyatlarını görebilirsiniz.
+2. "Envanter" sekmesinden stok giriş-çıkışlarını yapın.
+3. "Müşteriler" bölümünden borç/alacak kayıtlarını güncelleyin.
+4. "Giderler" kısmına lojistik ve işçilik gibi maliyetleri ekleyerek net kar analizi yapın.
 
-    Clone the repository:
+## Not
+Bu proje, öğrenme ve kişisel gelişim amacıyla geliştirilmiş bir **öğrenci projesidir**.
 
-git clone https://github.com/tahabugracck/findik_muhasebe.git
-
-Install dependencies:
-
-flutter pub get
-
-Run the app:
-
-    flutter run
-
-Technologies Used
-
-    Flutter
-    Dart
-    MongoDB
-    Web Scraping
-    
-Contributions
-
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
-
-Note
-
-This project is a student project, developed solely for learning and self-improvement purposes.
+---
+*Geliştirici: [blosny](https://github.com/blosny)*
